@@ -1,0 +1,32 @@
+doctype HTML
+html(lang='ko')
+    head
+        title 끝투
+        meta(charset='utf-8')
+        meta(name="viewpoint" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable-no")
+        link(rel='stylesheet' href='/css/login.css')
+        style.
+            a:link{
+                color: #97453A; text-decoration: none;
+            }
+            a:visited{
+                color: #97453A; text-decoration: none;
+            }
+            a:hover{
+                color: #97453A; text-decoration: none;
+            }
+    body
+        div.logo-box
+            img(src='/img/logo.png' alt='').logo
+        p.login-title Login
+        p.login-subtitle 끝전으로 투자하다.<br>끝투
+
+        form(action='/login', method='post')
+            .form-box1
+                input(type='text', name='userId',id='userId', class='login-textbox1' placeholder='ID')
+            .form-box2
+                input(type='password', name='password', id='password', class='login-textbox2' placeholder='Password')
+            .login-signin-box
+                input(type='submit', value='Sign In', class='login-signin')
+        .login-signin-box2
+            a(href='/signup', class='login-signin2') 회원가입

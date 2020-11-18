@@ -1,0 +1,185 @@
+.logo-box{
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* padding-top: 5px; */
+    margin-top: 0px;
+    padding-bottom: 5px;
+
+}
+
+.logo-small{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+display: inline;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #97453A;
+}
+
+.logo-big{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.logo-big-p{
+    margin-left: 10px;
+    width: 375px;
+
+    position: absolute;
+    left: calc(50% - 375px/2);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.tab-box{
+    position: absolute;
+    /* width: 378px; */
+    line-height: 51px;
+    top: 64px;
+    left: calc(50% - 347px/2);
+
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #97453A;
+}
+
+.home-tab-set{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 50px;
+    vertical-align: middle;
+    margin-right: 14px;
+    margin-left: 14px;    
+    color: #97453A;
+}
+
+.setting-top{
+    /* 정예원님의 My 투자설정 */
+    margin-left: 30px;
+
+    position: absolute;
+    width: 375px;
+    height: 62px;
+    left: calc(50% - 375px/2);
+    top: 116px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    display: block;
+    align-items: center;
+    letter-spacing: -0.3px;
+    vertical-align: middle;
+    color: #97453A;
+
+}
+
+.report-box{
+    /* Rectangle 20 */
+    display: block;
+    margin-left: 10px;
+    position: relative;
+    width: 337px;
+    height: 480px;
+    left: calc(50% - 337px/2);
+    top: 173px;
+    /* top: 223px; */
+
+    background: #FFFFFF;
+    border: 2px solid #97453A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.report-button{
+    /* Rectangle 21 */
+
+
+    position: relative;
+    width: 183px;
+    height: 44px;
+    left: calc(50% - 183px/2);
+    /* top: 736px; */
+
+    background: #97453A;
+    border-radius: 8px;
+    font-family: Inter;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #FFFFFF;
+    }
+
+
+.buy-button{
+    /* Rectangle 21 */
+    top: 637px;
+
+    margin-left: 10px;
+    position: relative;
+    display: block;
+    width: 183px;
+    height: 44px;
+    left: calc(50% - 183px/2 + 2px);
+
+    background: #97453A;
+    border-radius: 8px;
+    /* 매수 주문 */
+    /* top: 660px; */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+    border: 0px;
+    color: #FFFFFF;
+}
+
+.week{/* 이번 주 */
+    margin-top: 20px;
+    margin-right: 40px;
+    float: right;
+}
+.inline-block{
+    display: inline-block;
+    float: left;
+}

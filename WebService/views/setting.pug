@@ -1,0 +1,128 @@
+doctype HTML
+html
+    head
+        title 끝투  
+        meta(charset='utf-8')
+        meta(name="viewpoint" content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet' href='/css/setting.css')
+        style.
+            a:link{
+                color: black; text-decoration: none;
+            }
+            a:visited{
+                color: black; text-decoration: none;
+            }
+            a:hover{
+                color: black; text-decoration: none;
+            }
+    body
+        .logo-box
+            p.logo-big-p 끝
+                span.logo-small 전으로
+                span.logo-big 투
+                span.logo-small 자하다.
+        .tab-box
+            a(href='/home/setting' class='home-tab-set') My투자설정
+            a(href='/home' class='home-tab-set') 계좌조회
+            a(href='/home/top10' class='home-tab-set') 추천종목
+            a(href='/home/report' class='home-tab-set') 포트폴리오
+
+        p.setting-top #{user.name}님의 My 투자 설정
+        form(method='post', name='myForm', id='myForm', action='/home/setting')
+            .setting-amount-box
+                div
+                    p.setting-title 이체 일자 설정
+                    div.period-text-box
+                        input(type='text', id='date', name='date', value=user.transferDate. placeholder=user.transferDate).period-text
+                
+                p.setting-title2 끝전 단위 설정
+                    div.radio
+                        if(user.transferAmount=='1')
+                            input(type='radio', id='amount', name='amount',  value=1, checked).setting-radio
+                        else
+                            input(type='radio', id='amount', name='amount', value=1).setting-radio
+                        label(for='1000').setting-radio-label 1,000원미만 <br>
+
+                        if(user.transferAmount=='2')
+                            input(type='radio', id='amount',name='amount', value=2, checked).setting-radio
+                        else
+                            input(type='radio', id='amount',name='amount', value=2).setting-radio
+                        label(for='10000').setting-radio-label 10,000원 미만 <br>
+
+                        if(user.transferAmount=='3')
+                            input(type='radio',id='amount', name='amount', value=3, checked).setting-radio
+                        else
+                            input(type='radio',id='amount', name='amount', value=3).setting-radio
+                        label(for='100000').setting-radio-label 100,000원 미만
+                        <br>
+                    //- p.setting-warning [주의] 본인의 소득/재산에 적절한<br>투자를 권장합니다.
+                .setting-title2 이체 주기 설정
+                .radio2
+                    if(user.transferPeriod=='1')
+                        input(type='radio', id='period', name='period', value=1, checked).setting-radio2
+                    else
+                        input(type='radio', id='period', name='period', value=1).setting-radio2
+                    label(for='week').setting-radio-label 매주<br>
+
+                    if(user.transferPeriod=='2')
+                        input(type='radio', id='period', name='period', value=2, checked).setting-radio2
+                    else
+                        input(type='radio', id='period', name='period', value=2).setting-radio2
+                    label(for='week2').setting-radio-label 격주<br>
+
+                    if(user.transferPeriod=='3')
+                        input(type='radio',id='period', name='period', value=3, checked).setting-radio2
+                    else
+                        input(type='radio',id='period', name='period', value=3).setting-radio2
+                    label(for='month').setting-radio-label 매달<br>
+                div.box
+                    .setting-title3 희망 수익률 설정
+                    select(name='profits' id='profits' form='myForm').select
+                        if(user.expectedProfits=='2')
+                            option(value='2' selected) 2%
+                        else
+                            option(value='2') 2%
+                        if(user.expectedProfits=='3')
+                            option(value='3' selected) 3%
+                        else
+                            option(value='3') 3%
+                        if(user.expectedProfits=='4')
+                            option(value='4' selected) 4%
+                        else
+                            option(value='4') 4%
+                        if(user.expectedProfits=='5')
+                            option(value='5' selected) 5%
+                        else
+                            option(value='5') 5%
+                        if(user.expectedProfits=='6')
+                            option(value='6' selected) 6%
+                        else
+                            option(value='6') 6%
+                        if(user.expectedProfits=='7')
+                            option(value='7' selected) 7%
+                        else
+                            option(value='7') 7%
+                        if(user.expectedProfits=='8')
+                            option(value='8' selected) 8%
+                        else
+                            option(value='8') 7%
+                        if(user.expectedProfits=='9')
+                            option(value='9' selected) 9%
+                        else
+                            option(value='9') 9%
+                        if(user.expectedProfits=='10')
+                            option(value='10' selected) 10%
+                        else
+                            option(value='10') 10%
+                        if(user.expectedProfits=='11')
+                            option(value='11' selected) 11%
+                        else
+                            option(value='11') 11%
+                        if(user.expectedProfits=='12')
+                            option(value='12' selected) 12%
+                        else
+                            option(value='12') 12%
+                        
+            div
+                input(type='submit', value='설정 완료').setting-button
+        

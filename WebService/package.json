@@ -1,0 +1,39 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "해커톤 1조",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yewon-july/Hackathon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yewon-july/Hackathon/issues"
+  },
+  "homepage": "https://github.com/Yewon-july/Hackathon#readme",
+  "dependencies": {
+    "async": "^3.2.0",
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "cookie-parser": "^1.4.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.2.5",
+    "passport": "^0.4.1",
+    "passport-kakao": "^1.0.0",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7",
+    "pug": "^3.0.0",
+    "request": "^2.88.2",
+    "sequelize": "^6.3.5",
+    "zerorpc": "^0.9.8"
+  }
+}

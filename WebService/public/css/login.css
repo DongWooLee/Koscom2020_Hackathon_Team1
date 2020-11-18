@@ -1,0 +1,216 @@
+.mobile{
+    /* Signup */
+    position: relative;
+
+    /*
+    width: 375px;
+    height: 812px;
+
+    background: #FFFFFF;
+    /* border: 1px solid rgba(151, 69, 58, 0.7); */
+    box-sizing: border-box;
+}
+.logo-box{
+    height: 158px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+}
+.logo{
+   /* Logo */
+    position: relative;
+    height: 50px;
+    top: 83px;
+
+    /* width: 50%; */
+}
+.login-title{
+    /* Login */
+
+    position: absolute;
+    height: 41px;
+    left: 0px;
+    right: 0px;
+    top: 158px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.login-subtitle{
+    /* 끝전으로 투자하다. 끝투 */
+    position: absolute;
+    /* width: 361px; */
+    /* background-color: grey; */
+
+    height: 36px;
+    left: 0px;
+    right: 0px;
+    top: 224px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    margin-bottom: 50px;
+
+    color: rgba(151, 69, 58, 0.7);
+}
+
+.form-box1{
+    margin-top: 56px;
+    margin-bottom: 20px;
+    position: absolute;
+    height: 102;
+    left: 0px;
+    right: 0px;
+    top: 266px;
+    text-align: center;
+    /* background: #C4C4C4; */
+}
+.login-textbox1{
+    /* id */
+    width: 347px;
+    height: 54px;
+    left: calc(50% - 347px/2);
+    top: 312px;
+    /* display: inline-block; */
+
+    
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px; 
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    /* line-height: 22px; */
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+.form-box2{
+    position: absolute;
+    height: 272;
+    left: 0px;
+    right: 0px;
+    top: 400px; 
+    text-align: center;
+    /* background: #C4C4C4; */
+}
+
+
+.login-textbox2{
+    /* Password */
+    width: 347px;
+    height: 54px;
+    left: 0px;
+    right: 0px;
+    top: 372px;
+
+    /* left: 14px;
+    top: 372px; */
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* display: flex; */
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    color: rgba(0, 0, 0, 0.5);
+}
+.login-signin-box{
+    position: absolute;
+    height: 60px;
+    left:0px;
+    right: 0px;
+    top: 620px;
+    text-align: center;
+}
+.login-signin-box2{
+    position: absolute;
+    height: 60px;
+    left:0px;
+    right: 0px;
+    top: 700px;
+    text-align: center;
+}
+.login-signin{
+    /* Sign In 버튼 */
+    /* position: absolute; */
+    display: inline-block;
+    width: 323px;
+    height: 57px;
+    background: rgba(151, 69, 58, 0.7);
+    border-radius: 8px;
+    border:0px;
+
+    vertical-align: middle;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.login-signin2{
+    /* Sign In 버튼 */
+    /* position: absolute; */
+    display: inline-block;
+    width: 323px;
+    height: 57px;
+    border-radius: 8px;
+    border:0px;
+
+    vertical-align: middle;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+
+.login-signuplink{
+    /* 회원가입 */
+    position: absolute;
+   
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.3px;
+    color: #97453A;
+}

@@ -1,0 +1,49 @@
+doctype HTML
+html
+    head
+        title 끝투  
+        meta(charset='utf-8')
+        meta(name="viewpoint" content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet' href='/css/top10.css')
+        style.
+            a:link{
+                color: black; text-decoration: none;
+            }
+            a:visited{
+                color: black; text-decoration: none;
+            }
+            a:hover{
+                color: black; text-decoration: none;
+            }
+    body
+        .logo-box
+            p.logo-big-p 끝
+                span.logo-small 전으로
+                span.logo-big 투
+                span.logo-small 자하다.
+        .tab-box
+            a(href='/home/setting' class='home-tab-set') My투자설정
+            a(href='/home' class='home-tab-set') 계좌조회
+            a(href='/home/top10' class='home-tab-set') 추천종목
+            a(href='/home/report' class='home-tab-set') 포트폴리오
+
+        p.setting-top 오늘의 추천종목
+
+
+        .stock-data-box2
+            for d in data
+                form(action='/home/buyForm', method='post')
+                    input(type='hidden' id='stock_name' name='stock_name' value=d.stockName )
+                    input(type='hidden' id='stock_number' name='stock_number' value=d.stockNumber )
+                    input(type='hidden' id='stock_price' name='stock_price' value= d.currentPrice)
+                    input(type='hidden' id='stock_percent' name='stock_percent' value=d.stockPercent)
+                    input(type='hidden' id='market_code' name='market_code' value=d.marketCode)
+
+                    .stock-data-box
+                        p.stock-name #{d.stockName} <br>
+                            - price = d.currentPrice.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+                            span.stock-price #{price}
+                            //- - percent = Number(d.stockPercent) * 100
+                            //- - percent = percent.toFixed(1)
+                            span.stock-percent 확률 #{d.stockPercent} %
+                        input(type='submit' value='주문').buy-button

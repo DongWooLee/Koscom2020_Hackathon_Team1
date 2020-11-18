@@ -1,0 +1,24 @@
+doctype HTML
+head
+    title 끝투
+    meta(name="viewpoint" content="width=device-width, initial-scale=1.0")
+    link(rel='stylesheet' href='/css/signup.css')
+
+body
+    .logo-box
+        img(src='/img/logo.png' class="logo")
+    p.signup-title 회원가입
+
+    p.signup-semi-title 끝전으로 투자하다.<br> 끝투
+
+        form(action='/signup', method='post')
+                
+            input(type='text', name='name',id='name', class="signup-textbox1", placeholder='사용자 이름')
+            
+            input(type='text', name='userId',id='userId', class='signup-textbox2' placeholder='ID')
+            
+            input(type='password', name='password', id='password',class='signup-textbox3' placeholder='Password')
+            input(type='password', placeholder='Password 확인', class='signup-textbox4')
+                
+            input(type='button', value='공인인증서', class='signup-signkorea')
+            input(type='submit', value='제출', class='signup-submit')

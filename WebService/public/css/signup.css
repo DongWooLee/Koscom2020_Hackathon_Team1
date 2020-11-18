@@ -1,0 +1,196 @@
+.mobile{
+    /* Signup */
+    position: relative;
+    width: 375px;
+    height: 812px;
+
+    background: #FFFFFF;
+    /* border: 1px solid rgba(151, 69, 58, 0.7); */
+    box-sizing: border-box;
+}
+.logo-box{
+    height: 158px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+}
+.logo {
+    position: relative;
+    height: 50px;
+    top: 39px;
+}
+
+.signup-title {
+    /* 회원가입 */
+    position: absolute;
+    height: 41px;
+    left: 0px;
+    right: 0px;
+    top: 114px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+
+.signup-semi-title {
+   /* 끝전으로 투자하다. 끝투 */
+    position: absolute;
+    height: 36px;
+    left: 0px;
+    right: 0px;
+    top: 180px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: rgba(151, 69, 58, 0.7);
+}
+
+.signup-textbox1{
+    position: absolute;
+    width: 340px;
+    height: 54px;
+    left: calc(50% - 347px/2);
+    top: 268px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+.signup-textbox2{
+    /* ID */
+    position: absolute;
+    width: 340px;
+    height: 54px;
+    left: calc(50% - 347px/2);
+    top: 334px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+.signup-textbox3{
+    /* Password */
+    position: absolute;
+    width: 340px;
+    height: 54px;
+    left: calc(50% - 347px/2);
+    top: 400px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+
+}
+.signup-textbox4{
+    /* Password 확인 */
+    position: absolute;
+    width: 340px;
+    height: 54px;
+    left: calc(50% - 347px/2);
+    top: 466px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.3px;
+
+    border-right: 0px;
+    border-left: 0px;
+    border-top: 0px;
+}
+.signup-signkorea{
+    /* 공인인증서 버튼 */
+    position: absolute;
+    width: 323px;
+    height: 57px;
+    left: calc(50% - 347px/2);
+    top: 588px;
+
+    background: rgba(151, 69, 58, 0.7);
+    border-radius: 8px;
+    border: 0px;
+    /* 공인인증서 등록 */
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+
+}
+.signup-submit{
+    /* 제출 버튼 */
+    position: absolute;
+    width: 323px;
+    height: 57px;
+    left: calc(50% - 347px/2);
+    top: 690px;
+
+    background: rgba(151, 69, 58, 0.7);
+    border-radius: 8px;
+    position: absolute;
+    border:0px;
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+
+}

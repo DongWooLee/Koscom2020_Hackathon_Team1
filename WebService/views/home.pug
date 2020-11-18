@@ -1,0 +1,54 @@
+doctype HTML
+html
+    head
+        title 끝투
+        meta(charset='utf-8')
+        meta(name="viewpoint" content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet' href='/css/home.css')
+        style.
+            a:link{
+                color: black; text-decoration: none;
+            }
+            a:visited{
+                color: black; text-decoration: none;
+            }
+            a:hover{
+                color: black; text-decoration: none;
+            }
+    body
+        .logo-box
+            p.logo-big-p 끝
+                span.logo-small 전으로
+                span.logo-big 투
+                span.logo-small 자하다.
+        .tab-box
+            a(href='/home/setting' class='home-tab-set') My투자설정
+            a(href='/home' class='home-tab-set') 계좌조회
+            a(href='/home/top10' class='home-tab-set') 추천종목
+            a(href='/home/report' class='home-tab-set') 포트폴리오
+
+        .profile-box
+            img(src='../img/flower2.png').profile-img
+            .profile-text-box 
+                p.profile-text #{userName}님
+                p.profile-text2 건전한 투자를 항상 응원하겠습니다
+                
+        .account-box
+            p.account-title 마이데이터 계좌통합 서비스
+                
+            - balance = 0
+            for account in accounts
+                if(account.bankName=='project')                            
+                    - balance = account.balance + balance
+                else
+                    .account-info-box
+                        p.account-bank #{account.bankName}
+                        -balance3 = account.balance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+                        p.account-balance #{balance3} 원
+            input(type='button', value='계좌 추가' class='account-add')
+            p.account-warning 더 많은 계좌를 조회하고 싶으시다면<br>위 버튼을 눌러주세요!
+        .project-info-box
+            p.account-title2 끝전 잔액
+            - balance2 = balance.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
+            p.project-balance #{balance2 }원
+            p.account-warning2 오늘의 추천 종목을 구경하고 싶으시다면<br> 추천 Top10을 참고하세요!

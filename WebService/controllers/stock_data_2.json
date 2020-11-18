@@ -1,0 +1,85 @@
+{
+  "stock": {
+    "dataValues": [
+        {
+        "stock_number": "005930",
+        "stock_name": "삼성전자",
+        "stock_price": "57500",
+        "stock_percent" : "0.67",
+        "market_code": "kospi"
+        }, 
+        {
+        "stock_number": "000660",
+        "stock_name": "하이닉스",
+        "stock_price": "85600",
+        "stock_percent" : "0.63",
+        "market_code": "kospi"
+
+        },
+        {
+        "stock_number": "005380",
+        "stock_name": "현대차",
+        "stock_price": "177500",
+        "stock_percent" : "0.59",
+        "market_code": "kospi"
+
+        },
+        {
+        "stock_number": "051910",
+        "stock_name": "LG화학",
+        "stock_price": "705000",
+        "stock_percent" : "0.57",
+        "market_code": "kospi"
+
+        },
+        {
+        "stock_number": "035720",
+        "stock_name": "카카오",
+        "stock_price": "3655",
+        "stock_percent" : "0.54",
+        "market_code": "kospi"
+
+        },
+        {
+          "stock_number": "005930",
+          "stock_name": "삼성전자",
+          "stock_price": "57500",
+          "stock_percent" : "0.67",
+          "market_code": "kospi"
+
+          }, 
+          {
+          "stock_number": "000660",
+          "stock_name": "하이닉스",
+          "stock_price": "85600",
+          "stock_percent" : "0.63",
+          "market_code": "kospi"
+
+          },
+          {
+          "stock_number": "005380",
+          "stock_name": "현대차",
+          "stock_price": "177500",
+          "stock_percent" : "0.59",
+          "market_code": "kospi"
+
+          },
+          {
+          "stock_number": "051910",
+          "stock_name": "LG화학",
+          "stock_price": "705000",
+          "stock_percent" : "0.57",
+          "market_code": "kospi"
+
+          },
+          {
+          "stock_number": "035720",
+          "stock_name": "카카오",
+          "stock_price": "3655",
+          "stock_percent" : "0.54",
+          "market_code": "kospi"
+
+          }
+    ]
+  }
+}

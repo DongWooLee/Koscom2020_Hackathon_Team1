@@ -1,0 +1,306 @@
+.logo-box{
+    height: 60px;
+    left: 0px;
+    right: 0px;
+    position: absolute;
+    text-align: center;
+    /* vertical-align: middle; */
+    /* padding-top: 5px; */
+    margin-top: 0px;
+    padding-bottom: 5px;
+
+}
+
+.logo-small{
+    font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 20px;
+display: inline;
+align-items: center;
+text-align: center;
+letter-spacing: -0.3px;
+
+color: #97453A;
+}
+
+.logo-big{
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.logo-big-p{
+    margin-left: 10px;
+    width: 375px;
+
+    position: absolute;
+    left: calc(50% - 375px/2);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 24px;
+    display: inline;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.tab-box{
+    position: absolute;
+    /* width: 400px; */
+    line-height: 51px;
+    top: 64px;
+    left: calc(50% - 347px/2);
+
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    border-color: #97453A;
+}
+
+.home-tab-set{
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    height: 48px;
+    top: 0px;
+    vertical-align: middle;
+    margin-right: 14px;
+    margin-left: 14px;    
+    color: #97453A;
+}
+.profile-img{
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    margin: 3%;
+    text-align: center;
+
+    vertical-align: middle;
+}
+.profile-text-box{
+    margin-top: 3%;
+    display: inline-block; 
+    height: 60px;
+    width: 260px;
+    vertical-align: middle;
+}
+.profile-text{
+    margin-left: 3px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+    position: relative;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 19px;
+/* identical to box height */
+
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.profile-text2{
+    font-family: Inter;
+    margin-left: 3px;
+    margin-top: 9px;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 15px;
+/* identical to box height */
+
+letter-spacing: -0.3px;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+.profile-box{
+    position: absolute;
+    width: 378px;
+    height: 88px;
+    line-height: 89px;
+    top: 116px;
+    left: calc(50% - 347px/2);
+
+    vertical-align: middle;
+
+}
+.account-box{
+    position: absolute;
+    width: 337px;
+    height: 367px;
+    top: 204px;
+    margin-left: 10px;
+    left: calc(50% - 337px/2 + 2px);
+    background: #FFFFFF;
+    border: 2px solid #97453A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.account-title{
+    /* 마이데이터 계좌통합 서비스 */
+    position: relative;
+    margin: 6%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.account-title2{
+    /* 마이데이터 계좌통합 서비스 */
+    position: relative;
+    margin: 6%;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: -0.3px;
+
+    color: #97453A;
+}
+.account-info-box{
+    padding: 5px;
+    height: 50px;
+    width: 300px;
+    position: relative;
+    left: calc(50% - 335px/2 + 1px);
+    margin-left: 15px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+
+.account-bank{
+    /* KB 국민은행 */
+    display: inline-block;
+
+    position: relative;
+
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+    color: rgba(0, 0, 0, 0.8);
+}
+.account-balance{
+    margin-left: 15%;
+    float: right;
+    position: relative;
+    display: inline-block;
+    text-align: right;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: -0.3px;
+
+    color: rgba(0, 0, 0, 0.8);
+}
+.account-add{
+    position: relative;
+    width: 183px;
+    height: 44px;
+    left: calc(50% - 183px/2);
+    margin-top: 60px;
+    margin-bottom: 5px;
+    
+    background: #97453A;
+    border-radius: 8px;
+    border: 0px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: #FFFFFF;
+}
+.account-warning{
+    position: absolute;
+    left: calc(50% - 183px/2);
+
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 15px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+.account-warning2{
+    /* 오늘의 추천 종목을 구경하고 싶으시다면 추천 Top10을 참고하세요! */
+    position: absolute;
+    /* height: 31px; */
+    left: calc(50% - 235px/2);
+    /* top: 733px; */
+    /* margin-left: 20px; */
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    /* line-height: 17px; */
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    color: rgba(0, 0, 0, 0.7);
+}
+.project-info-box{
+    position: absolute;
+    width: 337px;
+    height: 195px;
+    top: 594px;
+    margin-left: 10px;
+    left: calc(50% - 337px/2 + 2px);
+    background: #FFFFFF;
+    border: 2px solid #97453A;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+
+.project-balance{
+    /* font-display: block; */
+    /* margin: auto; */
+    height: 60px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    /* display: flex; */
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.3px;
+    vertical-align: middle;
+    margin: 5px;
+    color: #97453A;
+}

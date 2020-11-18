@@ -1,0 +1,35 @@
+{
+  "stock": 
+{   "dataValues": [
+{
+        "stock_number":"092230",        "stock_name":"KPX홀딩스",        "stock_price":"70400",        "stock_percent":"0.57",        "market_code":"kospi"    }
+,
+{
+        "stock_number":"083420",        "stock_name":"그린케미칼",        "stock_price":"6070",        "stock_percent":"0.57",        "market_code":"kospi"    }
+,
+{
+        "stock_number":"267850",        "stock_name":"아시아나IDT",        "stock_price":"27050",        "stock_percent":"0.74",        "market_code":"kospi"    }
+,
+{
+        "stock_number":"020560",        "stock_name":"아시아나항공",        "stock_price":"5800",        "stock_percent":"0.61",        "market_code":"kospi"    }
+,
+{
+        "stock_number":"127120",        "stock_name":"디엔에이링크",        "stock_price":"12450",        "stock_percent":"0.72",        "market_code":"kosdaq"    }
+,
+{
+        "stock_number":"950200",        "stock_name":"소마젠(Reg.S)",        "stock_price":"20700",        "stock_percent":"0.59",        "market_code":"kosdaq"    }
+,
+{
+        "stock_number":"154030",        "stock_name":"아시아종묘",        "stock_price":"7700",        "stock_percent":"0.56",        "market_code":"kosdaq"    }
+,
+{
+        "stock_number":"066590",        "stock_name":"우수AMS",        "stock_price":"8800",        "stock_percent":"0.58",        "market_code":"kosdaq"    }
+,
+{
+        "stock_number":"058420",        "stock_name":"제이웨이",        "stock_price":"553",        "stock_percent":"0.64",        "market_code":"kosdaq"    }
+,
+{
+        "stock_number":"042520",        "stock_name":"한스바이오메드",        "stock_price":"12500",        "stock_percent":"0.59",        "market_code":"kosdaq"    }
+]
+}
+}

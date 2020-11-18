@@ -1,0 +1,74 @@
+doctype HTML
+html
+    head
+        title 끝투  
+        meta(charset='utf-8')
+        meta(name="viewpoint" content="width=device-width, initial-scale=1.0")
+        link(rel='stylesheet' href='/css/buy.css')
+        style.
+            a:link{
+                color: black; text-decoration: none;
+            }
+            a:visited{
+                color: black; text-decoration: none;
+            }
+            a:hover{
+                color: black; text-decoration: none;
+            }
+        script(src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js")
+        script(type='text/javascript').
+            $(document).ready(function(){
+                $("#amount").keyup(function(){
+                    console.log("Amount: " + $("#amount").val());
+                    console.log("Stock_price: " + $("#stock_price").val());
+                    var x = Number($("#amount").val())*Number($("#stock_price").val());
+                    
+                    $("#out").text(x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ","));
+                });
+            });
+    body
+        .logo-box
+            p.logo-big-p 끝
+                span.logo-small 전으로
+                span.logo-big 투
+                span.logo-small 자하다.
+        .tab-box
+            a(href='/home/setting' class='home-tab-set') My투자설정
+            a(href='/home' class='home-tab-set') 계좌조회
+            a(href='/home/top10' class='home-tab-set') 추천종목
+            a(href='/home/report' class='home-tab-set') 포트폴리오
+
+        p.setting-top 주식 주문
+        form(action='/home/buy', method='post')
+            .buy-box
+                .buy-box-small
+                    p.buy-box-semititle 종목
+                    p.buy-box-content #{stock_name}
+                    input(type='hidden', id='stock_name', name='stock_name', value= stock_name )
+
+                .buy-box-small
+                    p.buy-box-semititle 코드
+                    p.buy-box-content #{stock_number}
+                    input(type='hidden', id='stock_number', name='stock_number', value= stock_number )
+
+                .buy-box-small
+                    p.buy-box-semititle 수량
+                    .buy-box-content
+                        input(type='text', id='amount', name='amount', placeholder='0').buy-box-content2
+                        span 주
+                .buy-box-small
+                    p.buy-box-semititle 단가
+                    -price = stock_price.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",")
+                    p.buy-box-content #{price} 원
+                    input(type='hidden', id='stock_price', name='stock_price', value= stock_price )
+                    input(type='hidden', id='market_code', name='market_code', value= market_code )
+
+                .buy-box-small
+                    p.buy-box-semititle 가격
+                    .buy-box-content
+                        span(id='out' name='out', class='out') 0
+                        span 원
+                .buy-box-small
+                    p.buy-box-semititle 확률
+                    p.buy-box-content #{stock_percent} %
+            input(type='submit' value='매수 주문').buy-button
